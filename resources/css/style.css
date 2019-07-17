@@ -5,10 +5,15 @@
 }
 
 html {
-  background-color: #fff;
+  background-color: #fff;  /* white */
   color: #555;
   font-family: 'Lato', 'Arial', sans-serif;
   font-weight: 300;
   font-size: 20px;
   text-rendering: optimizeLegibility;
+}
+
+.row {
+  max-width: 1140px; /* this is the one place you set actual px and not % */
+  margin: 0 auto;
 }
