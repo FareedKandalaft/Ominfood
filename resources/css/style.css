@@ -14,6 +14,25 @@ html {
 }
 
 .row {
-  max-width: 1140px; /* this is the one place you set actual px and not % */
+  max-width: 1140px; /* this is the 1 place you set to px and not % */
   margin: 0 auto;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), #000), url(img/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.hero-text-box {
+  position: absolute;
+  width: 1140px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  margin: 0;
 }
