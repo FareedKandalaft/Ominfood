@@ -321,8 +321,12 @@ a:active {
     margin-bottom: 50px;
 }
 
+.works-step:first-of-type{
+    margin-top: -20px;
+}
+
 .works-step:last-of-type{
-    margin-bottom: 80px;
+    margin-bottom: 75px;
 }
 
 .works-step div {
