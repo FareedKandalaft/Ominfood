@@ -70,6 +70,14 @@ header {
   margin-top: 20px;
 }
 
+.logo-black {
+  display: none;
+  height: 50px;
+  width: auto;
+  float: left;
+  margin: 5px 5px;
+}
+
 /*--------------------------------------*/
 /* NAVIGATION */
 /*--------------------------------------*/
@@ -101,6 +109,45 @@ header {
   border-bottom: 2px solid #e67e22;
 }
 
+
+/*--------------------------------------*/
+/* Mobile Nav */
+/*--------------------------------------*/
+.mobile-nav-icon{
+  float: right;
+  margin-top: 30px;
+  cursor: pointer;
+  display: none;
+}
+
+.mobile-nav-icon i {
+  font-size: 200%;
+  color: #fff;
+}
+
+/*--------------------------------------*/
+/* Sticky Nav */
+/*--------------------------------------*/
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.98);
+  box-shadow: 0 2px 2px #efefef;
+  z-index: 999;
+}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited{
+  padding: 18px 0;
+  color: #555;
+}
+
+.sticky .logo {display: none;}
+.sticky .logo-black {display: block;}
+
+.sticky .main-nav { margin-top: 18px; }
 /*--------------------------------------*/
 /* HEADINGS */
 /*--------------------------------------*/
@@ -572,4 +619,20 @@ footer p {
   color: #888;
   text-align:  center;
   margin-top: 20px;
+}
+
+/*--------------------------------------*/
+/* Animations  */
+/*--------------------------------------*/
+
+.js--wp-1,
+.js--wp-2,
+.js--wp-3
+{ opacity: 0;}
+
+.js--wp-1.animated,
+.js--wp-2.animated,
+.js--wp-3.animated
+ {
+  opacity: 1;
 }
